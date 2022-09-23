@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Game</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="heading">
+    <h1> Guess Color <br><span id="colordisplay">color</span> </h1>
+    
+  </div>
+  <div id="level">
+    <div class="row">
+      <div class="col-md-4">
+        <button id="newgame">NEW GAME</button>
+      </div>
+    <div class="col-md-4">
+      <span id="result"></span>
+    </div>
+      <div class="col-md-4">
+        <button class="btn1">HARD</button>
+        <button class="btn2">EASY</button>
+      </div>
+    </div>
+    
+  </div>
+  <div id="container">
+    
+    <!-- <div> -->  
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square" id ="easysquare"></div>
+      <div class="square" id ="easysquare"></div>
+      <div class="square" id ="easysquare"></div>
+    <!-- </div> -->
+  </div>
+<script src="color-game.js"></script>
+
+</body>
+</html>
